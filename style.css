@@ -1,0 +1,20 @@
+#ageresult{
+    position: relative;
+    left: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+}
+
+#ageresulter{
+    position: relative;
+    top: 5px;
+}
+
+#btn{
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#result{
+    text-align: center;
+}

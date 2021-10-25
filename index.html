@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Old Age Displayer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card bg-info">
+        <h3 id="agedisplayer" class="text text-center display-4">
+          <b>Your old age displayer in 100 yrs time</b>
+        </h3>
+        <div class="card-body">
+          <form>
+            <input
+              type="text"
+              class="form-control form"
+              placeholder="Input your age year e.g 1990"
+            />
+            <br />
+
+            <input
+              type="text"
+              class="form-control form"
+              placeholder="Input your age month e.g 2"
+            /><br />
+
+            <input
+              type="text"
+              class="form-control form"
+              placeholder="Input your age Date e.g 20"
+            /><br />
+
+            <p class="text-danger h2" id="result"></p>
+            <br />
+
+            <button class="btn btn-success" id="btn">Get Age</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
